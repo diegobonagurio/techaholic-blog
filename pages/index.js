@@ -63,7 +63,9 @@ const Article = ({ article }) => {
       <div className="grid grid-cols-1 gap-3 md:col-span-2">
         <Heading as="h2">
           <PrismicLink document={article}>
-            <PrismicText field={article.data.title} />
+            <p className="font-serif text-3xl tracking-tighter text-zinc-100">
+              <PrismicText field={article.data.title} />
+            </p>
           </PrismicLink>
         </Heading>
         <p className="font-serif italic tracking-tighter text-zinc-300">
