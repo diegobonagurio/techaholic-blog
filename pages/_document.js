@@ -12,6 +12,8 @@ export default function Document() {
           href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
           rel="stylesheet"
         />
+
+        <meta name="google-site-verification" content="v4BaYXgO2nt8-7HNnCtJj8CeOVRgQdrljXoH2KKyLxA" />
       </Head>
       <body className="overflow-x-hidden antialiased">
         <Main />
