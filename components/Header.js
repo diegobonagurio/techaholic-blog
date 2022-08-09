@@ -6,6 +6,8 @@ import { Bounded } from "./Bounded";
 import { Heading } from "./Heading";
 import { HorizontalDivider } from "./HorizontalDivider";
 
+//test
+
 const Profile = ({ name, description, profilePicture }) => {
   return (
     <div className="px-4">
