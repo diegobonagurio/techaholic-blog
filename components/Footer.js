@@ -14,7 +14,7 @@ const SignUpForm = ({ settings }) => {
         className="grid w-full max-w-xl grid-cols-1 gap-6"
       >
         {prismicH.isFilled.richText(settings.data.newsletterDisclaimer) && (
-          <div className="text-center font-serif tracking-tight text-slate-500">
+          <div className="text-center font-serif tracking-tight text-zinc-300">
             <PrismicRichText
               field={settings.data.newsletterDescription}
               components={{
